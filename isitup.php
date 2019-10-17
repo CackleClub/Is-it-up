@@ -1,12 +1,11 @@
 <?php
 $url = $_GET['i'];
 
-$options = null;
+
 if($url == null){
     echo " ";
 }
 else{
-$checkCount = 0;
     $fp = @fSockOpen($url,80,$errno,$errstr,1);
        if(is_resource($fp)){
         
