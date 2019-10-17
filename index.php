@@ -11,7 +11,7 @@
     <div class="form">
         <h1>Is It Up?</h1>
     <form action="" method="GET">
-        <input type="text" name="i" placeholder="check ip/domain" autocomplete="off">
+        <input type="text" name="i" placeholder="check ip/domain" autocomplete="off" required>
         <button type="submit">Is it up?</button>
     </form>
     <br />
